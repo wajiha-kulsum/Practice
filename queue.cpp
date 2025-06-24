@@ -23,3 +23,24 @@ int main() {
     explainQueue();  // call the function
     return 0;
 }
+
+//priority_queye 
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void explainPQ(){
+    priority_queue<int>pq;
+pq.push(4);
+pq.push(2);
+pq.push(6);
+cout << pq.top(); //prints 6
+    
+}
+
+int main() {
+	explainPQ();
+	return 0;
+
+}
