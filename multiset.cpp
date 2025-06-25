@@ -36,3 +36,11 @@ int main() {
 
     return 0;
 }
+
+
+// Your Output
+// 1 2 2 3 
+// Found: 2
+// Not Found (it == ms.end())
+// Lower Bound: 2
+// Upper Bound: 3
